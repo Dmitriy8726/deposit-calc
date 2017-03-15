@@ -7,7 +7,7 @@ int main()
     float d = 0;
 
     printf("Amount of deposits: ");
-    scanf("%d", &d);
+    scanf("%f", &d);
 
     printf("Term: ");
     scanf("%d", &g);
