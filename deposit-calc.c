@@ -38,4 +38,8 @@ int main()
     } else {
         return 0;
     }
+
+    printf("%.2f\n", d); 
+
+    return 0;
 }
