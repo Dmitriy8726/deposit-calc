@@ -16,25 +16,24 @@ int main()
         if (g <= 30) {
              d = d - d / 100 * 10;
         } else if (g <= 120) {
-                    if (d < 100000) {
-                        d = d + d / 100 * 2;
-                    } else {
-                        d = d + d / 100 * 3;
-                    }
-                } else if (g <= 240) {
-                            if (d < 100000) {
-                                d = d + d / 100 * 6;
-                             } else {
-                                d = d + d / 100 * 8;
-                             }
-                        } else if (g <= 365 ) {
-                                    if (d < 100000) {
-                                        d = d + d / 100 * 12;
-                                    } else {
-                                       d = d + d / 100 * 15;
-                                    }
-                                 }
-
+            if (d < 100000) {
+                d = d + d / 100 * 2;
+            } else {
+                d = d + d / 100 * 3;
+            }
+        } else if (g <= 240) {
+            if (d < 100000) {
+                d = d + d / 100 * 6;
+            } else {
+                d = d + d / 100 * 8;
+            }
+        } else if (g <= 365 ) {
+            if (d < 100000) {
+                d = d + d / 100 * 12;
+        } else {
+                d = d + d / 100 * 15;
+               }
+        }
     } else {
         return 0;
     }
