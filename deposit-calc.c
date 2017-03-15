@@ -21,7 +21,13 @@ int main()
                     } else {
                         d = d + d / 100 * 3;
                     }
-                }
+                } else if (g <= 240) {
+                            if (d < 100000) {
+                                d = d + d / 100 * 6;
+                             } else {
+                                d = d + d / 100 * 8;
+                             }
+                        }
 
     return 0;
 }
