@@ -39,6 +39,6 @@ int main()
     }
 
     printf("%.2f\n", deposit); 
-
+return 0;
     return 0;
 }
