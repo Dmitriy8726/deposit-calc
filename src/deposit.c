@@ -1,4 +1,5 @@
-#include "deposit.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 int chek (int time,float deposit)
 {
